@@ -1,0 +1,259 @@
+/*header*/
+.t-start{
+   padding-right: 20PX;
+}
+ul li{
+  padding: 15px;
+}
+/*unserval*/
+/*services*/
+.b-ground{
+   background-color: rgb(227, 243, 243);
+   height: 90vh;
+}
+.b-ground img{
+   width: 95%;
+}
+.pt{
+   padding-top: 10%;
+   padding-left: 100px;
+   font-size: 350%;
+   color: rgb(49, 49, 105);
+}
+.p{
+   padding-left: 100px;
+   padding-top: 20px;
+}
+.mt-5{
+   margin-left: 15%;
+   width: 20%;
+}
+.t-center{
+   text-align: center;
+}
+.w-90{
+   width: 90%;
+}
+.l-height{
+   line-height: 30px;
+   text-align: justify;
+}
+.pt-5{
+   margin-top: 40px;
+}
+.developer h3{
+ margin-top: 20px;
+}
+h3,h1,h4{
+color: #064081;
+}
+p{
+   line-height: 30px;
+   text-align: justify;
+}
+/*HireExpert*/
+.Hire h1{
+padding-top: 10%;
+padding-left: 20%;
+}
+.Hire p{
+   padding-left: 20%;
+}
+.Hire{
+   margin-right: 0%;
+}
+.Hire i{
+   padding-right: 10px;
+   color: #064081;
+}
+.h-0{
+height: 100vh;
+}
+.Hire button{
+   margin-left: 20%;
+}
+.reason{
+   text-align: center;
+   color: #064081;
+}
+.margin{
+   margin-left: 0%;
+}
+.margin div{
+   margin: 10px;
+   height: 60vh;
+   padding-top: 20px;
+}
+.mr{
+   margin-left: 0%;
+}
+.mr div{
+   margin: 10px;
+   padding-top: 20px;
+   height: 50vh;
+}
+.boder{
+   border: 1px   solid rgb(23, 22, 22);
+   border-radius: 7px;
+}
+.hire{
+   margin-left: 0%;
+}
+.hire div{
+   padding: 5px;
+}
+.hire img{
+   padding: 15px;
+}
+.b-b{
+   border-bottom: 1px solid rgb(194, 193, 193);
+}
+.b-l{
+   border-left: 1px solid rgb(194, 193, 193);
+}
+.b-r{
+   border-right:1px solid rgb(194, 193, 193); ;
+}
+.w-20{
+   width: 15%;
+   margin-left: 40%;
+}
+.m-l{
+margin-left: 12%;
+}
+.program img{
+   width: 20%;
+}
+.program div{
+   border: 1px solid rgb(77, 77, 77);
+   padding: 10px; 
+   width: 24%;
+   margin: 5px;
+   height: 10vh;
+}
+.program span{
+   color: #064081;
+   font-size: 18px;
+   ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.program :hover{
+   background-color: rgb(214, 213, 213);
+}
+/*footer*/
+.footer{
+   margin-right: 0%;
+}
+.footer div{
+   height: 60vh;
+   background-color: rgb(27, 27, 27);
+   color: white;
+}
+.logo{
+   padding-left: 5%;
+   padding-top: 20px;
+}
+.logo img{
+width: 70%;
+}
+.footer a{
+   text-decoration: none;
+   color: white;
+}
+.link{
+   padding-left: 15%;
+   line-height: 50px;
+   padding-top: 7%;
+}
+.copy{
+   background-color:  rgb(19, 18, 18);;
+   color: white;
+   padding-bottom: 20px;
+}
+/*Contact*/
+.contact{
+   background-color: rgba(211, 244, 251, 0.359);
+   height: 100vh;
+   margin-bottom: 20px;
+}
+.address{
+   padding-top: 50px;
+   padding-left: 0%;
+}
+.address p{
+   width: 70%;
+   padding: 10px;
+}
+/*contactus*/
+.contactus input,.contactus textarea{
+margin-top: 20px;
+}
+.contactus textarea{
+   height: 140px;
+}
+.m-top{
+   margin-top: 50px;
+}
+.errormsg{
+   color: red;
+   margin-top: 10px;
+}
+.f-book i{
+   font-size: 30px;
+   padding: 10px;
+}
+.twitter{
+   color: rgb(41, 192, 226);
+}
+.face{
+   color: rgb(83, 83, 185);
+}
+.insta{
+   color: rgb(190, 10, 70);
+}
+.you{
+   color: rgb(244, 24, 24);
+}
+.pint{
+color: rgb(209, 25, 25);
+}
+.check li{
+   display: inline;
+}
+.check label{
+   padding-left: 10px;
+}
+/*Products*/
+.product div{
+ padding: 6%;
+ padding-left: 10%;
+}
+.product p{
+   color: black;
+}
+div.row.product{
+   --bs-gutter-x: 0rem;
+}
+.product img{
+ width: 100%;
+}
+.devel{
+   margin-left: 30%;
+   width: 40%;
+   padding: 7.5px;
+   height: 150px;
+}
+.maker{
+   background-color: #064081;
+}
+.maker img{
+   padding-left: 10%;
+}
+.maker h1,p{
+   color: white;
+}
+.maker h1{
+   font-size: 2.7em;
+}
+div.row.maker{
+   --bs-gutter-x: 0rem;
+}

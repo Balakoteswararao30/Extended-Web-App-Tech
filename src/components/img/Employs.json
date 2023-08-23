@@ -1,0 +1,60 @@
+{
+    "employs":[
+        {
+            "id":101,
+            "name":"Balu",
+            "phone":8974521360,
+            "desienation":"Mern full stark",
+            "address":"Hyderabad"
+        },
+        {
+            "id":102,
+            "name":"Sai ganesh",
+            "phone":6302147895,
+            "desienation":"UX Developer",
+            "address":"Hyderabad"
+        },
+        {
+            "id":103,
+            "name":"Sai kumar",
+            "phone":6897412350,
+            "desienation":"front end developer",
+            "address":"Hyderabad"
+        },
+        {
+            "id":104,
+            "name":"Adithya",
+            "phone":7854123960,
+            "desienation":"UI Developer",
+            "address":"Hyderabad"
+        },
+        {
+            "id":105,
+            "name":"Naga Raju",
+            "phone":9874012365,
+            "desienation":"Web development",
+            "address":"Hyderabad"
+        },
+        {
+            "id":106,
+            "name":"Anand",
+            "phone":8931470578,
+            "desienation":"Back end developer",
+            "address":"Hyderabad"
+        },
+        {
+            "id":107,
+            "name":"Chaitanya",
+            "phone":7025493318,
+            "desienation":"meru full stark",
+            "address":"Hyderabad"
+        },
+        {
+            "id":108,
+            "name":"Venkatesh",
+            "phone":2578436910,
+            "desienation":"AIML",
+            "address":"Hyderabad"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+.Product{
+  float: left;
+  margin: 30px;
+}
+.t-center{
+  text-align: center;
+}
+div img{
+  width: 290px;
+  height: 45vh;
+  border-radius: 30px;
+  box-shadow: 5px 5px 9px 2px black;
+}
+div button{
+  background-color: rgb(245, 34, 34);
+  color: white;
+  font-size: 25px;
+  margin-left: 65px;
+}
+
