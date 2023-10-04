@@ -124,7 +124,7 @@ export default class Contact extends Component {
             </div>
             <div className="col-md-6 contactus">
               <form onSubmit={this.submitHandler}>
-                <div className="row m-top">
+                <div className="row">
                   <div className="col-md-6">
                     <input
                       type="text"
@@ -197,7 +197,7 @@ export default class Contact extends Component {
                 <br/>
                 <li><input type="checkbox"/>
                 <label>
-                Hire a TeamWeb Development
+                Hire a Team Development
                 </label></li>
                 <br/>
                 <li><input type="checkbox"/>

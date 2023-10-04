@@ -1,11 +1,27 @@
 /*header*/
 .t-start{
-   padding-right: 20PX;
+   padding-right: 60PX;
 }
 ul li{
-  padding: 15px;
+  padding: 5px;
 }
 /*unserval*/
+*p{
+   color: #064081;
+}
+/*all*/
+.w-80{
+   width: 80%;
+}
+.w-90{
+   width: 90%;
+}
+.h-40{
+   height: 35vh;
+}
+.h-20{
+   height: 20vh;
+}
 /*services*/
 .b-ground{
    background-color: rgb(227, 243, 243);
@@ -44,7 +60,10 @@ ul li{
 .developer h3{
  margin-top: 20px;
 }
-h3,h1,h4{
+.developer img{
+   box-shadow: 1px 1px 5px 1px rgba(13, 10, 10, 0.311);
+}
+h3,h1,h4,h2{
 color: #064081;
 }
 p{
@@ -67,7 +86,7 @@ padding-left: 20%;
    color: #064081;
 }
 .h-0{
-height: 100vh;
+height: 105vh;
 }
 .Hire button{
    margin-left: 20%;
@@ -81,7 +100,7 @@ height: 100vh;
 }
 .margin div{
    margin: 10px;
-   height: 60vh;
+   height: 70vh;
    padding-top: 20px;
 }
 .mr{
@@ -90,7 +109,7 @@ height: 100vh;
 .mr div{
    margin: 10px;
    padding-top: 20px;
-   height: 50vh;
+   height: 58vh;
 }
 .boder{
    border: 1px   solid rgb(23, 22, 22);
@@ -133,8 +152,8 @@ margin-left: 12%;
 }
 .program span{
    color: #064081;
-   font-size: 18px;
-   ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 15.8px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .program :hover{
    background-color: rgb(214, 213, 213);
@@ -172,7 +191,7 @@ width: 70%;
 /*Contact*/
 .contact{
    background-color: rgba(211, 244, 251, 0.359);
-   height: 100vh;
+   height: 110vh;
    margin-bottom: 20px;
 }
 .address{
@@ -191,7 +210,7 @@ margin-top: 20px;
    height: 140px;
 }
 .m-top{
-   margin-top: 50px;
+   margin-top: 90px;
 }
 .errormsg{
    color: red;
@@ -237,10 +256,10 @@ div.row.product{
  width: 100%;
 }
 .devel{
-   margin-left: 30%;
-   width: 40%;
+   margin-left: 25%;
+   width: 50%;
    padding: 7.5px;
-   height: 150px;
+   height: 140px;
 }
 .maker{
    background-color: #064081;
@@ -248,7 +267,7 @@ div.row.product{
 .maker img{
    padding-left: 10%;
 }
-.maker h1,p{
+.color-w{
    color: white;
 }
 .maker h1{
@@ -256,4 +275,90 @@ div.row.product{
 }
 div.row.maker{
    --bs-gutter-x: 0rem;
+}
+.waterapps img{
+   height: 40vh;
+}
+.car{
+   height: 50vh;
+}
+.card{
+   box-shadow: 1px 1px 4px 1px rgba(13, 10, 10, 0.311);
+}
+.ml-100{
+   margin-left: 100px;
+}
+.research{
+   background-color: #06408105;
+}
+.research img{
+   box-shadow: 1px 1px 5px 1px rgba(13, 10, 10, 0.311);
+}
+
+/*industries*/
+.buy img{
+   height: 90vh;
+   width: 110%;
+   margin-top: 30px;
+   padding: 40px;
+}
+.relevance img{
+   width: 50px;
+}
+.relevance :hover{
+   background-color: #eaf7fc;
+}
+.firm img{
+   width: 50px;
+}
+.firm {
+   height: 130vh;
+}
+.seo p{
+   margin-bottom: 10%;
+}
+
+/*AboutUs*/
+.origin img{
+   padding-top: 50px;
+}
+.origin h1{
+   padding-top: 20%;
+}
+
+/*career*/
+.carrer h1{
+   font-size: 3.5em;
+   font-style:oblique;
+   padding-left: 10px;
+}
+.carrer h5{
+   padding-left: 10px;
+   padding-top: 20px;
+}
+.carrer button{
+   margin-left: 10px;
+   margin-top: 20px;
+}
+.carrer img{
+   width:200%;
+}
+.good{
+   background-color: #f1f1f1;
+   color: #064081;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 16px;
+   height: 20vh;
+   text-align: center;
+}
+.developer summary{
+   color: #064081;
+   font-size: 1.3em;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.developer{
+   margin-left: 25px;
+}
+.b-color{
+   background-color: #f1f1f1;
 }

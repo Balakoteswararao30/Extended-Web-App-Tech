@@ -30,18 +30,18 @@ const Footer = () => {
             <span>info@extwebtech.com</span>
           </div>
           <div className="col-md-4 link">
-            <a href="Services">Home</a>
+            <a href="services">Home</a>
             <br />
-            <a href="Services">Services</a>
+            <a href="services">Services</a>
             <br />
-            <a href="HireExpert">Hire Expert</a>
+            <a href="hireExpert">Hire Expert</a>
             <br />
-            <a href="#">Product</a>
+            <a href="products">Product</a>
           </div>
           <div className="col-md-4 link">
-            <a href="#">Industries</a>
+            <a href="industries">Industries</a>
             <br />
-            <a href="#">About Us</a>
+            <a href="aboutus">About Us</a>
             <br />
             <a href="#">Career</a>
             <br />

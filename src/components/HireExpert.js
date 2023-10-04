@@ -1,4 +1,4 @@
-import React, { useState }  from "react";
+import React, { useState } from "react";
 import Hire1 from "./img/Hire1.webp";
 import Hire2 from "./img/Hire2.webp";
 import Hire3 from "./img/Hire3.webp";
@@ -35,13 +35,13 @@ import manual from "./img/manual.webp";
 import { useNavigate } from "react-router-dom";
 import Contact from "./Contact";
 const HireExpert = () => {
-    const [showContact, setShowContact] = useState(false);
-    const navigate = useNavigate();
-  
-    const handleGetStartedClick = () => {
-      setShowContact(true);
-      navigate("/contact");
-    };
+  const [showContact, setShowContact] = useState(false);
+  const navigate = useNavigate();
+
+  const handleGetStartedClick = () => {
+    setShowContact(true);
+    navigate("/contact");
+  };
   return (
     <div>
       <div className="m-top"></div>
@@ -82,7 +82,10 @@ const HireExpert = () => {
               <i class="fa-sharp fa-solid fa-check fa-lg"></i>Superior customer
               service
             </p>
-            <button className="btn btn-outline-primary" onClick={handleGetStartedClick}>
+            <button
+              className="btn btn-outline-primary"
+              onClick={handleGetStartedClick}
+            >
               Get Started <i class="fa-solid fa-arrow-right"></i>
             </button>
             {showContact && <Contact />}
@@ -90,7 +93,7 @@ const HireExpert = () => {
           <div className="col-md-6 b-ground h-0"></div>
         </div>
       </div>
-      <h2 className="reason">Reason To Hire Developers In India?</h2>
+      <h2 className="reason pt-4">Reason To Hire Developers In India?</h2>
       <div className="container">
         <div className="row">
           <p>
@@ -182,7 +185,7 @@ const HireExpert = () => {
         <div className="row">
           <div className="col-md-1"></div>
           <div className="col-md-11">
-            <h1 className="t-center">
+            <h1 className="t-center pt-4">
               Hire Developers In India To Work On A Wide Range Of Projects
             </h1>
             <p className="t-center ">
@@ -270,7 +273,7 @@ const HireExpert = () => {
         <button className="btn btn-outline-primary mt-4 mb-2 w-20">
           Hire Developer <i class="fa-solid fa-arrow-right"></i>
         </button>
-        <h1 className="t-center">
+        <h1 className="t-center pt-4">
           Hire Skilled, Comprehensive Programmers In India.
         </h1>
         <p>
@@ -399,8 +402,8 @@ const HireExpert = () => {
         <button className="btn btn-outline-primary mt-3 mb-3 w-20">
           Hire Developer <i class="fa-solid fa-arrow-right"></i>
         </button>
-        <h1>Why Should You Hire Developers From Extended Web AppTech?</h1>
-        <p>
+        <h1 className="t-center pt-3">Why Should You Hire Developers From Extended Web AppTech?</h1>
+        <p className="t-center">
           In web and mobile app development, look no further than Extended Web
           AppTech, based in India and staffed by a highly skilled and creative
           group of professionals. We have built a solid reputation for providing
@@ -424,9 +427,9 @@ const HireExpert = () => {
             <p>
               To keep ahead of the curve, we invest heavily in research and
               development of cutting-edge technology and tools. As a result, we
-              can provide our customers with cutting-edge solutions,
-              guaranteeing that your online and mobile applications will always
-              be at the forefront of technology.
+              can provide our customers with cutting-edge solutions guaranteeing
+              that your online and mobile applications will always be at the
+              forefront of technology.
             </p>
           </div>
           <div className="col-md-3 boder t-center">
@@ -468,7 +471,7 @@ const HireExpert = () => {
             </p>
           </div>
         </div>
-        <div className="row mr">
+        <div className="row mr pb-4">
           <div className="col-md-1"></div>
           <div className="col-md-3 boder t-center">
             <h4>Ongoing Support and Maintenance</h4>

@@ -8,7 +8,9 @@ import HireExpert from "./components/HireExpert";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import { Products } from "./components/Products";
-
+import Industries from "./components/Industries";
+import { AboutUs } from "./components/AboutUs";
+import { Career } from "./components/Career";
 const App = () => {
   return (
     <Router>
@@ -19,6 +21,9 @@ const App = () => {
           <Route path="/hireExpert" element={<HireExpert />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/products" element={<Products/>}/>
+          <Route path="/industries" element={<Industries/>}/>
+          <Route path="/aboutus" element={<AboutUs/>}/>
+          <Route path="/career" element={<Career/>}/>
         </Routes>
         <Footer />
       </div>
