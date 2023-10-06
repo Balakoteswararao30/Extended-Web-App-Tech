@@ -11,6 +11,7 @@ import { Products } from "./components/Products";
 import Industries from "./components/Industries";
 import { AboutUs } from "./components/AboutUs";
 import { Career } from "./components/Career";
+import { Blog } from "./components/Blog";
 const App = () => {
   return (
     <Router>
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/industries" element={<Industries/>}/>
           <Route path="/aboutus" element={<AboutUs/>}/>
           <Route path="/career" element={<Career/>}/>
+          <Route path="/blog" element={<Blog/>}/>
         </Routes>
         <Footer />
       </div>

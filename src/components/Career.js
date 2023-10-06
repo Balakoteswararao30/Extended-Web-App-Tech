@@ -157,22 +157,47 @@ export const Career = () => {
           <div className="b-color p-4">
             <h5 className="pt-3 ps-3 b-color">Requirement :</h5>
             <ul className="b-color">
-            <li>3+ years of Extensive experience in development using Ruby on Rails.</li>
-      <li>Understanding of front-end technologies, such as JavaScript, HTML5, and CSS3.</li>
-      <li>Familiarity with RESTful APIs to connect applications to back-end web services.</li>
-      <li>Familiarity with JSON and JWT (JSON Web Tokens) authorisation.</li>
-      <li>Familiarity with concepts of MVC, Mocking, ORM, and RESTful.</li>
-      <li>Experience with common libraries such as RSpec and Resque.</li>
-      <li>Experience with SQL backend, preferably Postgres or MySQL.</li>
-      <li>Critical thinker and problem-solving skills.</li>
-      <li>Experience with CICD ms Integration and upgradation.</li>
-      <li>Deployments [AWS, Digital Ocean, Heroku].</li>
-      <li>Identify bottlenecks and bugs, and devise solutions to these problems.</li>
-      <li>Should utilize Ruby/Rails best practices.</li>
-      <li>Should be able to work with native modules when required.</li>
-      <li>Should have experience in Agile development methodologies.</li>
-      <li>Design, build, and maintain efficient, reusable, and reliable Ruby code.</li>
-      <li>Good understanding of Cloud technology (AWS, Azure).</li>
+              <li>
+                3+ years of Extensive experience in development using Ruby on
+                Rails.
+              </li>
+              <li>
+                Understanding of front-end technologies, such as JavaScript,
+                HTML5, and CSS3.
+              </li>
+              <li>
+                Familiarity with RESTful APIs to connect applications to
+                back-end web services.
+              </li>
+              <li>
+                Familiarity with JSON and JWT (JSON Web Tokens) authorisation.
+              </li>
+              <li>
+                Familiarity with concepts of MVC, Mocking, ORM, and RESTful.
+              </li>
+              <li>
+                Experience with common libraries such as RSpec and Resque.
+              </li>
+              <li>
+                Experience with SQL backend, preferably Postgres or MySQL.
+              </li>
+              <li>Critical thinker and problem-solving skills.</li>
+              <li>Experience with CICD ms Integration and upgradation.</li>
+              <li>Deployments [AWS, Digital Ocean, Heroku].</li>
+              <li>
+                Identify bottlenecks and bugs, and devise solutions to these
+                problems.
+              </li>
+              <li>Should utilize Ruby/Rails best practices.</li>
+              <li>Should be able to work with native modules when required.</li>
+              <li>
+                Should have experience in Agile development methodologies.
+              </li>
+              <li>
+                Design, build, and maintain efficient, reusable, and reliable
+                Ruby code.
+              </li>
+              <li>Good understanding of Cloud technology (AWS, Azure).</li>
             </ul>
             <button className="btn btn-outline-primary ms-3">
               Apply Now <i class="fa-solid fa-arrow-right"></i>
@@ -185,19 +210,37 @@ export const Career = () => {
           <div className="b-color p-4">
             <h5 className="pt-3 ps-3 b-color">Requirement :</h5>
             <ul className="b-color">
-            <li>3+ years of experience in Android development.</li>
-      <li>Experience with Android SDK.</li>
-      <li>Experience working with remote data via REST and JSON, knowledge of MVC architecture, JSON/ XML data format.</li>
-      <li>Experience with third-party libraries and APIs.</li>
-      <li>Proficient in Java, with a good knowledge of its ecosystems.</li>
-      <li>Capable of handling web service integration – RESTful, JSON, SOAP, XML to connect with Back-end Services.</li>
-      <li>Working knowledge of the general mobile landscape, architectures, trends, and emerging technologies.</li>
-      <li>Tools: Git/ SVN, Redmine/ Bugzilla/ TFS, Android Studio/ Eclipse.</li>
-      <li>Complete understanding of the full mobile development life cycle, particularly agile SDLC model, SRS/ PRD document, work estimate, unit testing, test cases.</li>
-      <li>Good technical communication skill (verbal /written).</li>
-      <li>Proven working experience in Android development.</li>
-      <li>Experience with Firebase ( Preferred Skill).</li>
-      <li>Published at least 2-3 original apps in play store.</li>
+              <li>3+ years of experience in Android development.</li>
+              <li>Experience with Android SDK.</li>
+              <li>
+                Experience working with remote data via REST and JSON, knowledge
+                of MVC architecture, JSON/ XML data format.
+              </li>
+              <li>Experience with third-party libraries and APIs.</li>
+              <li>
+                Proficient in Java, with a good knowledge of its ecosystems.
+              </li>
+              <li>
+                Capable of handling web service integration – RESTful, JSON,
+                SOAP, XML to connect with Back-end Services.
+              </li>
+              <li>
+                Working knowledge of the general mobile landscape,
+                architectures, trends, and emerging technologies.
+              </li>
+              <li>
+                Tools: Git/ SVN, Redmine/ Bugzilla/ TFS, Android Studio/
+                Eclipse.
+              </li>
+              <li>
+                Complete understanding of the full mobile development life
+                cycle, particularly agile SDLC model, SRS/ PRD document, work
+                estimate, unit testing, test cases.
+              </li>
+              <li>Good technical communication skill (verbal /written).</li>
+              <li>Proven working experience in Android development.</li>
+              <li>Experience with Firebase ( Preferred Skill).</li>
+              <li>Published at least 2-3 original apps in play store.</li>
             </ul>
             <button className="btn btn-outline-primary ms-3">
               Apply Now <i class="fa-solid fa-arrow-right"></i>
@@ -210,21 +253,49 @@ export const Career = () => {
           <div className="b-color p-4">
             <h5 className="pt-3 ps-3 b-color">Requirement :</h5>
             <ul className="b-color">
-            <li>3+ years of experience in IOS development.</li>
-      <li>Must be well versed with SWIFT & Objective C.</li>
-      <li>Expertise in integrating RESTful web services.</li>
-      <li>Experience working with storyboard, cocoa touch and auto layout.</li>
-      <li>Experience building iWatch app.</li>
-      <li>Hands on experience in Cloud APIs, push notifications, social media integration, and integration of analytics is an added advantage.</li>
-      <li>Experience with automated build and release process (Adhoc release, Final release).</li>
-      <li>Has experience in using Maps API, GPS services for iOS application.</li>
-      <li>Experience working with iOS frameworks such as Core Data, Core Animation, Core Graphics and Core Text, Core Location.</li>
-      <li>Experience with third party libraries and APIs like Alamo fire.</li>
-      <li>Working knowledge of the general mobile orientation, architecture, trends and emerging technologies.</li>
-      <li>Solid understanding of the full mobile application development life cycle.</li>
-      <li>Must have good analytical, debugging and problem-solving skills.</li>
-      <li>Self-starter having the ability to independently acquire the knowledge required in succeeding his job.</li>
-      <li>Good communication skills.</li>
+              <li>3+ years of experience in IOS development.</li>
+              <li>Must be well versed with SWIFT & Objective C.</li>
+              <li>Expertise in integrating RESTful web services.</li>
+              <li>
+                Experience working with storyboard, cocoa touch and auto layout.
+              </li>
+              <li>Experience building iWatch app.</li>
+              <li>
+                Hands on experience in Cloud APIs, push notifications, social
+                media integration, and integration of analytics is an added
+                advantage.
+              </li>
+              <li>
+                Experience with automated build and release process (Adhoc
+                release, Final release).
+              </li>
+              <li>
+                Has experience in using Maps API, GPS services for iOS
+                application.
+              </li>
+              <li>
+                Experience working with iOS frameworks such as Core Data, Core
+                Animation, Core Graphics and Core Text, Core Location.
+              </li>
+              <li>
+                Experience with third party libraries and APIs like Alamo fire.
+              </li>
+              <li>
+                Working knowledge of the general mobile orientation,
+                architecture, trends and emerging technologies.
+              </li>
+              <li>
+                Solid understanding of the full mobile application development
+                life cycle.
+              </li>
+              <li>
+                Must have good analytical, debugging and problem-solving skills.
+              </li>
+              <li>
+                Self-starter having the ability to independently acquire the
+                knowledge required in succeeding his job.
+              </li>
+              <li>Good communication skills.</li>
             </ul>
             <button className="btn btn-outline-primary ms-3">
               Apply Now <i class="fa-solid fa-arrow-right"></i>
@@ -233,46 +304,75 @@ export const Career = () => {
         </details>
         <hr />
         <h1 className="t-center pt-4">Join Our Team</h1>
-        <div className="pb-5">
-        <div className="row">
-          <div className="col-md-6">
-            <label>First Name*</label>
-            <input type="text" className="w-100"/>
-            <p>0 of 15 max characters.</p>
+        <div className="pb-5 join">
+          <div className="row">
+            <div className="col-md-6">
+              <label>First Name<span>*</span></label>
+              <input type="text" className="w-100" />
+              <p>0 of 15 max characters.</p>
+            </div>
+            <div className="col-md-6">
+              <label>Last Name<span>*</span></label>
+              <input type="text" className="w-100" />
+              <p>0 of 15 max characters.</p>
+            </div>
           </div>
-          <div className="col-md-6">
-            <label>Last Name*</label>
-            <input type="text" className="w-100"/>
-            <p>0 of 15 max characters.</p>
+          <div className="row pb-3">
+            <div className="col-md-6">
+              <label>Email<span>*</span></label>
+              <input type="text" className="w-100" />
+            </div>
+            <div className="col-md-6">
+              <label>Phone<span>*</span></label>
+              <input type="text" className="w-100" />
+            </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-md-6">
-            <label>Email*</label>
-            <input type="text" className="w-100"/>
+          <div className="row pb-3 ps-2">
+            <label>Position to apply<span>*</span></label>
+            <select>
+              <option>React JS Developer</option>
+              <option>React Native</option>
+              <option>Ruby on Rails Dev (ROR)</option>
+              <option>Android Developer</option>
+              <option>iOS Developer</option>
+            </select>
           </div>
-          <div className="col-md-6">
-            <label>Phone*</label>
-            <input type="text" className="w-100"/>
+          <div className="row pb-3 ps-2">
+            <label>Year of Experience<span>*</span></label>
+            <select>
+              <label>hello</label>
+              <option>Fresher</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+            </select>
           </div>
-        </div>
-        <div className="row">
-          <label>Position to apply*</label>
-          <input type="text"/>
-        </div>
-        <div className="row">
-          <label>Year of Experience*</label>
-          <input type="text"/>
-        </div>
-        <div className="row">
-          <label>Cover letter</label>
-          <textarea className="h-20"></textarea>
-          <p>0 of 2000 max characters.</p>
-        </div>
-        <div className="row">
-          <label>Upload Resume*</label>
-          <input text="dottedbox" className="h-20"/>
-        </div>
+          <div className="row ps-2">
+            <label>Cover letter</label>
+            <textarea className="h-20"></textarea>
+            <p>0 of 2000 max characters.</p>
+          </div>
+          <div className="row ps-2">
+            <label>Upload Resume<span>*</span></label>
+            <input text="dottedbox" className="h-20" />
+            <p>
+              File format allowed .doc, .docx, .pdf, .txt .<br />
+              Max file size 5MB.
+            </p>
+          </div>
+          <input type="submit" className="btn btn-outline-primary p-2"/>
         </div>
       </div>
     </div>

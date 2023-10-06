@@ -43,9 +43,9 @@ const Footer = () => {
             <br />
             <a href="aboutus">About Us</a>
             <br />
-            <a href="#">Career</a>
+            <a href="career">Career</a>
             <br />
-            <a href="#">Blog</a>
+            <a href="blog">Blog</a>
           </div>
           <p className="t-center copy">2023 &copy;Copyright | Extended Web AppTech 
             <br/>          
