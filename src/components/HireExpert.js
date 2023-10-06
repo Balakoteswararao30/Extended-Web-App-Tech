@@ -270,7 +270,7 @@ const HireExpert = () => {
             </p>
           </div>
         </div>
-        <button className="btn btn-outline-primary mt-4 mb-2 w-20">
+        <button className="btn btn-outline-primary mt-4 mb-2 w-20" onClick={handleGetStartedClick}>
           Hire Developer <i class="fa-solid fa-arrow-right"></i>
         </button>
         <h1 className="t-center pt-4">
@@ -399,7 +399,7 @@ const HireExpert = () => {
             <span>Hire Manual QA Developer</span>
           </div>
         </div>
-        <button className="btn btn-outline-primary mt-3 mb-3 w-20">
+        <button className="btn btn-outline-primary mt-3 mb-3 w-20" onClick={handleGetStartedClick}>
           Hire Developer <i class="fa-solid fa-arrow-right"></i>
         </button>
         <h1 className="t-center pt-3">Why Should You Hire Developers From Extended Web AppTech?</h1>
