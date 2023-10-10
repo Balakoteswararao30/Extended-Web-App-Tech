@@ -1,23 +1,23 @@
 import React from "react";
-import IT from "./img/IT.webp";
-import UI from "./img/UI-UX-designer.webp";
-import Ruby from "./img/Ruby-on-Rails.webp";
-import optimizing from "./img/Optimizing.webp";
-import global from "./img/Global-Staff-Augmentation.webp";
-import manual from "./img/Manual-vs.-Automation-QA.webp";
-import comparing from "./img/Comparing.webp";
-import web from "./img/web-security.webp";
-import responsive from "./img/responsive-design.webp";
-import mobile from "./img/Mobile-App-Testing.webp";
-import security from "./img/mobile-app-security.png";
-import ios from "./img/ios-vs-android.webp";
-import hiring from "./img/Hiring-In-House-Web-Developers.webp";
-import risks from "./img/Risks-of-IT-Staff-Augmentation.png";
-import react from "./img/React-Native-dev.png";
-import outsource from "./img/Outsource-Web-Development-1.png";
-import tips from "./img/7-Tips-for-Creating-Mobile-Friendly-Websites.webp";
-import strategies from "./img/Strategies-for-Testing.webp";
-export const Blog = () => {
+import node from "./img/node-js-guideline.webp";
+import main from "./img/Website-Maintenance-Services"
+import best from "./img/Best_Ecommerce.webp";
+import front from "./img/frontend-vs-bancend.webp"
+import sql from "./img/SQL-server.webp"
+import ai from "./img/ai.webp"
+import ux from "./img/UX-Improvements.webp"
+import Web from "./img/web-maintenance.webp";
+import gpt from "./img/chat-gpt.webp";
+import maintenace from "./img/web-maintenance.webp";
+import ror from "./img/ror-react.webp";
+import trends from "./img/development-trends.webp";
+import Design from "./img/Web-design-and-development.webp";
+import App from "./img/cross-platform-app.webp";
+import ui from "./img/ui-principles.webp"
+import Apps from "./img/mobile-apps.webp";
+import mi from "./img/Ai-Ml.webp";
+import full from "./img/Full_stack_developer.webp";
+export const Blog4 = () => {
   return (
     <div className="m-top">
       <div className="container-fulid"></div>
@@ -229,7 +229,7 @@ export const Blog = () => {
         <nav aria-label="Page navigation">
             <ul class="pagination justify-content-center">
                 <li class="page-item">
-                <a class="page-link" href="blog" aria-label="Previous">
+                    <a class="page-link" href="/blog3" aria-label="Previous">
                         <span aria-hidden="true">&laquo; Previous</span>
                     </a>
                 </li>
@@ -240,7 +240,7 @@ export const Blog = () => {
                 <li class="page-item"><a class="page-link" href="/blog5">5</a></li>
                 <li class="page-item"><a class="page-link" href="/blog6">6</a></li>
                 <li class="page-item">
-                    <a class="page-link" href="/blog2" aria-label="Next">
+                    <a class="page-link" href="/blog5" aria-label="Next">
                         <span aria-hidden="true"> Next &raquo;</span>
                     </a>
                 </li>

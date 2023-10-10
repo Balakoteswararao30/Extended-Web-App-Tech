@@ -12,6 +12,11 @@ import Industries from "./components/Industries";
 import { AboutUs } from "./components/AboutUs";
 import { Career } from "./components/Career";
 import { Blog } from "./components/Blog";
+import { Blog2 } from "./components/Blog2";
+import { Blog3 } from "./components/Blog3";
+import { Blog4 } from "./components/Blog4";
+import { Blog5 } from "./components/Blog5";
+import { Blog6 } from "./components/Blog6";
 const App = () => {
   return (
     <Router>
@@ -26,6 +31,11 @@ const App = () => {
           <Route path="/aboutus" element={<AboutUs/>}/>
           <Route path="/career" element={<Career/>}/>
           <Route path="/blog" element={<Blog/>}/>
+          <Route path="/blog2" element={<Blog2/>}/>
+          <Route path="/blog3" element={<Blog3/>}/>
+          <Route path="/blog4" element={<Blog4/>}/>
+          <Route path="/blog5" element={<Blog5/>}/>
+          <Route path="/blog6" element={<Blog6/>}/>
         </Routes>
         <Footer />
       </div>

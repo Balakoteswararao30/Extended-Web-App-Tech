@@ -17,7 +17,7 @@ import react from "./img/React-Native-dev.png";
 import outsource from "./img/Outsource-Web-Development-1.png";
 import tips from "./img/7-Tips-for-Creating-Mobile-Friendly-Websites.webp";
 import strategies from "./img/Strategies-for-Testing.webp";
-export const Blog = () => {
+export const Blog6 = () => {
   return (
     <div className="m-top">
       <div className="container-fulid"></div>
@@ -229,7 +229,7 @@ export const Blog = () => {
         <nav aria-label="Page navigation">
             <ul class="pagination justify-content-center">
                 <li class="page-item">
-                <a class="page-link" href="blog" aria-label="Previous">
+                    <a class="page-link" href="/blog5" aria-label="Previous">
                         <span aria-hidden="true">&laquo; Previous</span>
                     </a>
                 </li>
@@ -240,7 +240,7 @@ export const Blog = () => {
                 <li class="page-item"><a class="page-link" href="/blog5">5</a></li>
                 <li class="page-item"><a class="page-link" href="/blog6">6</a></li>
                 <li class="page-item">
-                    <a class="page-link" href="/blog2" aria-label="Next">
+                    <a class="page-link" href="#" aria-label="Next">
                         <span aria-hidden="true"> Next &raquo;</span>
                     </a>
                 </li>
