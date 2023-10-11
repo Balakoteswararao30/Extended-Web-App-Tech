@@ -1,22 +1,22 @@
 import React from "react";
-import IT from "./img/IT.webp";
-import UI from "./img/UI-UX-designer.webp";
-import Ruby from "./img/Ruby-on-Rails.webp";
-import optimizing from "./img/Optimizing.webp";
-import global from "./img/Global-Staff-Augmentation.webp";
-import manual from "./img/Manual-vs.-Automation-QA.webp";
-import comparing from "./img/Comparing.webp";
-import web from "./img/web-security.webp";
-import responsive from "./img/responsive-design.webp";
-import mobile from "./img/Mobile-App-Testing.webp";
-import security from "./img/mobile-app-security.png";
-import ios from "./img/ios-vs-android.webp";
-import hiring from "./img/Hiring-In-House-Web-Developers.webp";
-import risks from "./img/Risks-of-IT-Staff-Augmentation.png";
-import react from "./img/React-Native-dev.png";
-import outsource from "./img/Outsource-Web-Development-1.png";
-import tips from "./img/7-Tips-for-Creating-Mobile-Friendly-Websites.webp";
-import strategies from "./img/Strategies-for-Testing.webp";
+import block from "./img/blockchain-technology.webp";
+import intelli from "./img/Artificial-Intelligence-Revolution.webp";
+import pishing from "./img/pishing-attack.webp";
+import mini from "./img/minimalism-maximalism.webp";
+import wear from "./img/wearable-banking.webp";
+import digital from "./img/digital-marketing.webp";
+import migrate from "./img/migrate_to_drupal8.webp";
+import share from "./img/Sharepoint-Banner.webp";
+import voice from "./img/voice-seach.webp";
+import reaality from "./img/reaality-apps.webp";
+import mangento from "./img/magento_header_img.webp";
+import core from "./img/core-php-vs-laravel.webp";
+import meta from "./img/Metaverse.webp";
+import PHP from "./img/PHP-web-development.webp";
+import repost from "./img/repost-content.webp";
+import websecurity from "./img/web-security.webp";
+import respon from "./img/responsive-web-design.webp";
+import cloud from "./img/cloud-computing-1.webp";
 export const Blog5 = () => {
   return (
     <div className="m-top">
@@ -25,227 +25,245 @@ export const Blog5 = () => {
         <h1 className="t-center pt-4 pb-5">Recent Blogs</h1>
         <div className="row blog">
           <div className="col-md-4">
-            <img src={IT} alt="it" />
-            <h6>Essential Tips for Leveraging IT Staff Augmentation</h6>
-            <p>
-              In today’s fast-paced digital landscape, businesses are constantly
-              striving to stay ahead of the curve. Digital transformation has
-              become more than just a buzzword.
-            </p>
-          </div>
-          <div className="col-md-4">
-            <img src={UI} alt="ui" />
+            <img src={block} alt="block" />
             <h6>
-              10 Common UI/UX Mistakes to Avoid in Your Web and Mobile Apps
+              The Potential Impact of Blockchain Technology on Web Development
             </h6>
             <p>
-              In today’s digital age, creating user-friendly web and mobile apps
-              is crucial for success. The user interface (UI) and user
-              experience (UX) play a significant.
+              The Potential Impact of Blockchain Technology on Web Development
+              In the modern world, security is essential for all facets of your
+              company. Everyone is concerned.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={Ruby} alt="ruby" />
-            <h6>How to Choose the Right Ruby on Rails Development Partner?</h6>
+            <img src={intelli} alt="intelli" />
+            <h6>Why Everyone is Obsessed with ChatGPT – Revolution in AI</h6>
             <p>
-              Ruby on Rails, often abbreviated as Rails, is an open-source web
-              application framework that has revolutionized the world of web
-              development. 
+              Why Everyone is Obsessed with ChatGPT – Revolution in AI In recent
+              years, machine learning and robotics have been the two most
+              significant applications.
+            </p>
+          </div>
+          <div className="col-md-4">
+            <img src={pishing} alt="pishing" />
+            <h6>Understanding and preventing phishing attacks</h6>
+            <p>
+              Understanding and preventing phishing attacks In the modern world,
+              cybersecurity is essential. As technology advances, so make the
+              security threats that we face. Phishing attack.
             </p>
           </div>
         </div>
         <div className="row blog">
           <div className="col-md-4">
-            <img src={optimizing} alt="optimizing" />
-            <h6>Optimizing Performance in React JS: A Comprehensive Guide</h6>
+            <img src={mini} alt="mini" />
+            <h6>
+              Minimalism vs. Maximalism in Web Design: What’s the Difference?
+            </h6>
             <p>
-              The need for React JS apps to be fast and agile has never been
-              greater in dynamic web development.
+              Minimalism vs. Maximalism in Web Design: What’s the Difference?
+              Two of the most popular web design trends—Minimalism and
+              Maximalism—involve polar opposite methods.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={global} alt="global" />
-            <h6>
-              Global Staff Augmentation: Tapping into a Worldwide Talent Pool
-            </h6>
+            <img src={wear} alt="wear" />
+            <h6>The Future Of Wearable Technology: Predictions And Trends</h6>
             <p>
-              Staff augmentation has become increasingly important in today’s
-              fast-paced corporate environment since it enables organisations to
-              efficiently recruit from a larger talent pool located around.
+              The Future Of Wearable Technology: Predictions And Trends Wearable
+              technology has come a long way in recent years and has become an
+              increasingly popular trend.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={manual} alt="manual" />
+            <img src={digital} alt="digital" />
             <h6>
-              Manual vs. Automation QA: Choosing the Right Approach for Your
-              Project
+              Extended Web AppTech – We Craft The Best Marketing Strategies For
+              Your Business Growth
             </h6>
             <p>
-              Quality and reliability are essential in fast-paced software
-              development, where technology evolves swiftly. Software testing,
-              an essential development lifecycle stage, is driven by this
-              necessity.
+              Digital Marketing Services – Grow Your Reach with Our Strategies
+              Digital marketing is advertising that uses the internet and
+              digital devices like computers and smartphones.
             </p>
           </div>
         </div>
         <div className="row blog">
           <div className="col-md-4">
-            <img src={comparing} alt="comparing" />
-            <h6>Comparing React Native to Native App Development</h6>
+            <img src={migrate} alt="migrate" />
+            <h6>
+              Moving to Drupal 8? How to Find the Perfect Company for Your Site
+            </h6>
             <p>
-              React Native development is a game-changing strategy in the
-              rapidly changing world of mobile app creation. Native App
-              Development, which necessitates developing apps for both.
+              Moving to Drupal 8? How to Find the Perfect Company for Your Site
+              At least 82,000+ sites are running Drupal 6 as of December 4.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={web} alt="web" />
-            <h6>
-              Best Practices for Website Security in Web Development Services
-            </h6>
+            <img src={share} alt="share" />
+            <h6>What Perks Can Microsoft SharePoint Bring to Your Business?</h6>
             <p>
-              Website security has become a top priority in Web Development
-              Services. Hiring a web developer is the first step in safeguarding
-              your online presence.
+              What Perks Can Microsoft SharePoint Bring to Your Business? A
+              company’s ability to operate efficiently depends on how
+              effectively it uses the resources at its.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={responsive} alt="responsive" />
+            <img src={voice} alt="voice" />
             <h6>
-              The Role of Responsive Design in Modern Web Development Services
+              Voice Search Optimization – A Major Technological Breakthrough
             </h6>
             <p>
-              Web Development Services are now essential for businesses seeking
-              to establish a strong online presence in the current digital
-              environment.
+              Voice Search Optimization – A Major Technological Breakthrough A
+              fantastic feature called voice search has unexpectedly sparked a
+              revolution across the entire Internet.
             </p>
           </div>
         </div>
         <div className="row blog">
           <div className="col-md-4">
-            <img src={mobile} alt="mobile" />
-            <h6>
-              Mobile App Testing: Best Practices for Ensuring Quality and
-              Performance
-            </h6>
+            <img src={reaality} alt="reaality" />
+            <h6>How Augmented Reality Apps Benefit Businesses?</h6>
             <p>
-              Mobile app development has witnessed a remarkable surge in recent
-              years as smartphones have become integral to our daily lives.
+              Overview of Augmented Reality (AR) Augmented Reality (AR) is a
+              technology that boosts the real-world environment by superimposing
+              digital data on top of it.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={security} alt="security" />
+            <img src={mangento} alt="mangento" />
             <h6>
-              Mobile App Security Best Practices: Protecting User Data and
-              Preventing Cyber Attacks
+              Benefits Of Custom Magento Theme Development For Your E-Commerce
+              Store
             </h6>
             <p>
-              Mobile app security is an essential aspect of mobile app
-              development, involving various measures to safeguard user data and
-              thwart cyberattacks.
+              Benefits Of Custom Magento Theme Development For Your E-Commerce
+              Store Magento is a well-known open-source e-commerce platform that
+              enables businesses to establish and manage online.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={ios} alt="ios" />
-            <h6>
-              Mobile App Development for iOS vs Android: Key Differences and
-              Considerations
-            </h6>
+            <img src={core} alt="core" />
+            <h6>CodeIgniter vs. CakePHP – Which is better for Your Business</h6>
             <p>
-              Mobile app development is a booming business that gives businesses
-              and developers a lot of possibilities. When embarking on this
-              journey, one crucial decision.
+              CodeIgniter vs. CakePHP – Which is better for Your Business
+              CodeIgniter and CakePHP are PHP frameworks that are often used
+              with the same language.
             </p>
           </div>
         </div>
         <div className="row blog">
           <div className="col-md-4">
-            <img src={hiring} alt="hiring" />
+            <img src={meta} alt="meta" />
             <h6>
-              The Pros and Cons of Hiring In-House Web Developers vs.
-              Outsourcing
+              Exploring the Possibilities of the Metaverse: From Virtual Reality
+              to Augmented Reality
             </h6>
             <p>
-              As businesses endeavour to establish a robust online presence in
-              the modern digital era, the demand for web developers is soaring.
+              Exploring the Possibilities of the Metaverse: From Virtual Reality
+              to Augmented Reality The word “Metaverse” refers to a virtual
+              reality world where users can interact.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={risks} alt="risks" />
-            <h6>
-              How to Avoid Common Pitfalls and Risks of IT Staff Augmentation
-            </h6>
+            <img src={PHP} alt="PHP" />
+            <h6>How Custom PHP Development Can Benefit Your Business</h6>
             <p>
-              Businesses increasingly look to IT Staff Augmentation companies to
-              hire skilled HTML developers in today’s fast-paced digital
-              landscape.
+              How Custom PHP Development Can Benefit Your Business PHP is a
+              popular open-source programming language that works well for
+              creating websites.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={react} alt="react" />
-            <h6>Key Skills to Look for When Hiring React Native Developers</h6>
+            <img src={repost} alt="repost" />
+            <h6>
+              repost content The Benefits Of Repurposing And Reposting Old
+              Content In A New Way
+            </h6>
             <p>
-              In today’s fast-paced world, where mobile app development is a
-              growing business, hiring skilled React Native developers is
-              critical for project success.
+              The Benefits Of Repurposing And Reposting Old Content In A New Way
+              As a digital marketer or content provider, there’s always a
+              temptation to release.
             </p>
           </div>
         </div>
         <div className="row blog">
           <div className="col-md-4">
-            <img src={outsource} alt="outsource" />
-            <h6>
-              Top Reasons Why Companies Choose to Outsource Web Development
-              Projects
-            </h6>
+            <img src={websecurity} alt="websecurity" />
+            <h6>Common Web Security Threats And How To Protect Against Them</h6>
             <p>
-              Web development is crucial for businesses seeking to establish a
-              robust online presence and remain competitive in the current
-              digital environment. However, the difficulties associated.
+              Common Web Security Threats And How To Protect Against Them Web
+              security protects websites and online systems from cyber dangers,
+              such as malware, phishing attacks.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={tips} alt="tips" />
-            <h6>7 Tips for Creating Mobile-Friendly Websites</h6>
+            <img src={respon} alt="respon" />
+            <h6>Responsive Web Design and how it affects user experience?</h6>
             <p>
-              In today’s digital landscape, mobile-friendly websites are
-              critical for businesses and organizations to reach their target
-              audience effectively. With the growth of Android app development.
+              Introduction Web design plays a key part in the user experience of
+              a website or application. It influences how easily visitors can
+              access the information.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={strategies} alt="strategies" />
+            <img src={cloud} alt="cloud" />
             <h6>
-              Strategies for Testing and Quality Assurance in Web Development
+              What’s Better for Your Business: Cloud Computing or On-Premise
+              Solutions?
             </h6>
             <p>
-              Quality assurance (QA) is a crucial component of web development
-              services, as it ensures the deliverance of dependable and
-              high-performing websites and applications.
+              What’s Better for Your Business: Cloud Computing or On-Premise
+              Solutions? Businesses can access and use technological resources
+              in two ways: cloud computing and on-premises solutions.
             </p>
           </div>
         </div>
         <div>
-        <nav aria-label="Page navigation">
+          <nav aria-label="Page navigation">
             <ul class="pagination justify-content-center">
-                <li class="page-item">
-                    <a class="page-link" href="/blog4" aria-label="Previous">
-                        <span aria-hidden="true">&laquo; Previous</span>
-                    </a>
-                </li>
-                <li class="page-item"><a class="page-link" href="blog">1</a></li>
-                <li class="page-item"><a class="page-link" href="/blog2">2</a></li>
-                <li class="page-item"><a class="page-link" href="/blog3">3</a></li>
-                <li class="page-item"><a class="page-link" href="/blog4">4</a></li>
-                <li class="page-item"><a class="page-link" href="/blog5">5</a></li>
-                <li class="page-item"><a class="page-link" href="/blog6">6</a></li>
-                <li class="page-item">
-                    <a class="page-link" href="/blog6" aria-label="Next">
-                        <span aria-hidden="true"> Next &raquo;</span>
-                    </a>
-                </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog4" aria-label="Previous">
+                  <span aria-hidden="true">&laquo; Previous</span>
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="blog">
+                  1
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog2">
+                  2
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog3">
+                  3
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog4">
+                  4
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog5">
+                  5
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog6">
+                  6
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog6" aria-label="Next">
+                  <span aria-hidden="true"> Next &raquo;</span>
+                </a>
+              </li>
             </ul>
-        </nav>
+          </nav>
         </div>
       </div>
     </div>
