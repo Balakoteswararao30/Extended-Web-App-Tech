@@ -1,22 +1,20 @@
 import React from "react";
-import IT from "./img/IT.webp";
-import UI from "./img/UI-UX-designer.webp";
-import Ruby from "./img/Ruby-on-Rails.webp";
-import optimizing from "./img/Optimizing.webp";
-import global from "./img/Global-Staff-Augmentation.webp";
-import manual from "./img/Manual-vs.-Automation-QA.webp";
-import comparing from "./img/Comparing.webp";
-import web from "./img/web-security.webp";
-import responsive from "./img/responsive-design.webp";
-import mobile from "./img/Mobile-App-Testing.webp";
-import security from "./img/mobile-app-security.png";
-import ios from "./img/ios-vs-android.webp";
-import hiring from "./img/Hiring-In-House-Web-Developers.webp";
-import risks from "./img/Risks-of-IT-Staff-Augmentation.png";
-import react from "./img/React-Native-dev.png";
-import outsource from "./img/Outsource-Web-Development-1.png";
-import tips from "./img/7-Tips-for-Creating-Mobile-Friendly-Websites.webp";
-import strategies from "./img/Strategies-for-Testing.webp";
+import native from "./img/ReactJS-vs-React-Native.webp";
+import ML from "./img/ML.webp";
+import business from "./img/business-intelligence.webp";
+import Web from "./img/web-design.webp";
+import BEL from "./img/BEL.webp";
+import ar from "./img/ar-vr-2048x1366.webp";
+import computing from "./img/cloud-computing.webp";
+import world from "./img/virtual-world.webp";
+import foe from "./img/friend-or-foe.webp";
+import min from "./img/Super-apps-F-min.webp";
+import wallpaper from "./img/wallpapersden.com_metaverse-hd_wxl.webp";
+import about from "./img/about.webp";
+import blog3 from "./img/blog-3.jpg";
+import blog2 from "./img/blog-2.jpg";
+import blog4 from "./img/blog-4.jpg";
+import blog1 from "./img/blog-1.jpg";
 export const Blog6 = () => {
   return (
     <div className="m-top">
@@ -25,227 +23,213 @@ export const Blog6 = () => {
         <h1 className="t-center pt-4 pb-5">Recent Blogs</h1>
         <div className="row blog">
           <div className="col-md-4">
-            <img src={IT} alt="it" />
-            <h6>Essential Tips for Leveraging IT Staff Augmentation</h6>
+            <img src={native} alt="native" />
+            <h6>Key Factors to Differentiate Between React and React Native</h6>
             <p>
-              In today’s fast-paced digital landscape, businesses are constantly
-              striving to stay ahead of the curve. Digital transformation has
-              become more than just a buzzword.
+              Key Factors To Differentiate Between React And React Native As
+              more companies and developers have opted for mobile app
+              development in recent years, React Native.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={UI} alt="ui" />
+            <img src={ML} alt="ML" />
             <h6>
-              10 Common UI/UX Mistakes to Avoid in Your Web and Mobile Apps
+              5 Use Cases for Machine Learning to Automate Healthcare Industry
             </h6>
             <p>
-              In today’s digital age, creating user-friendly web and mobile apps
-              is crucial for success. The user interface (UI) and user
-              experience (UX) play a significant.
+              5 Use Cases for Machine Learning to Automate Healthcare Industry
+              Machine learning has the ability to revolutionise the healthcare
+              sector through the automation of multiple.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={Ruby} alt="ruby" />
-            <h6>How to Choose the Right Ruby on Rails Development Partner?</h6>
+            <img src={business} alt="business" />
+            <h6>Business intelligence in mobile application development</h6>
             <p>
-              Ruby on Rails, often abbreviated as Rails, is an open-source web
-              application framework that has revolutionized the world of web
-              development. 
+              Business intelligence in mobile application development The term
+              “business intelligence” (BI) is commonly used to describe the
+              incorporation of data, analytics, and reporting capabilities.
             </p>
           </div>
         </div>
         <div className="row blog">
           <div className="col-md-4">
-            <img src={optimizing} alt="optimizing" />
-            <h6>Optimizing Performance in React JS: A Comprehensive Guide</h6>
+            <img src={Web} alt="Web" />
+            <h6>
+              What is the best way to pick a reputable website design company?
+            </h6>
             <p>
-              The need for React JS apps to be fast and agile has never been
-              greater in dynamic web development.
+              What is the best way to pick a reputable website design company?
+              Web design is the layout of a website that is visible online.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={global} alt="global" />
-            <h6>
-              Global Staff Augmentation: Tapping into a Worldwide Talent Pool
-            </h6>
+            <img src={BEL} alt="BEL" />
+            <h6>Adaptive artificial Intelligence| How does it work</h6>
             <p>
-              Staff augmentation has become increasingly important in today’s
-              fast-paced corporate environment since it enables organisations to
-              efficiently recruit from a larger talent pool located around.
+              Introduction of Adaptive Artificial Intelligence Adaptive
+              Artificial Intelligence is a wide range of branches of computer
+              science. It makes the procedure of building smarter machines.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={manual} alt="manual" />
-            <h6>
-              Manual vs. Automation QA: Choosing the Right Approach for Your
-              Project
-            </h6>
+            <img src={ar} alt="ar" />
+            <h6>AR/VR- an ultimatum to the tech terrain</h6>
             <p>
-              Quality and reliability are essential in fast-paced software
-              development, where technology evolves swiftly. Software testing,
-              an essential development lifecycle stage, is driven by this
-              necessity.
+              AR/VR- an ultimatum to the tech terrain In this constantly
+              developing tech world, the inclusion of machines and the
+              digitalization of systems have peaked.
             </p>
           </div>
         </div>
         <div className="row blog">
           <div className="col-md-4">
-            <img src={comparing} alt="comparing" />
-            <h6>Comparing React Native to Native App Development</h6>
+            <img src={computing} alt="computing" />
+            <h6>Cloud computing in Digital Era</h6>
             <p>
-              React Native development is a game-changing strategy in the
-              rapidly changing world of mobile app creation. Native App
-              Development, which necessitates developing apps for both.
+              Overview of Cloud computing Cloud computing was introduced in 1996
+              in compact internet documents. In 1999 Salesforce became the first
+              company to provide enterprise applications.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={web} alt="web" />
-            <h6>
-              Best Practices for Website Security in Web Development Services
-            </h6>
+            <img src={world} alt="world" />
+            <h6>Extended Reality- A futuristic virtual world</h6>
             <p>
-              Website security has become a top priority in Web Development
-              Services. Hiring a web developer is the first step in safeguarding
-              your online presence.
+              What is Extended Reality? All immersive technologies are included
+              under the newly popular moniker “Extended Reality.” The ones that
+              are currently in existence.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={responsive} alt="responsive" />
+            <img src={foe} alt="foe" />
             <h6>
-              The Role of Responsive Design in Modern Web Development Services
+              Importance of Artificial Intelligent in bringing the next
+              Revolution Introduction
             </h6>
             <p>
-              Web Development Services are now essential for businesses seeking
-              to establish a strong online presence in the current digital
-              environment.
+              Importance of Artificial Intelligent in bringing the next
+              Revolution Introduction Artificial intelligence has taken off
+              recently, becoming a topic that routinely makes headlines
             </p>
           </div>
         </div>
         <div className="row blog">
           <div className="col-md-4">
-            <img src={mobile} alt="mobile" />
-            <h6>
-              Mobile App Testing: Best Practices for Ensuring Quality and
-              Performance
-            </h6>
+            <img src={min} alt="min" />
+            <h6>Super Apps Super apps:- In The New Digital World</h6>
             <p>
-              Mobile app development has witnessed a remarkable surge in recent
-              years as smartphones have become integral to our daily lives.
+              Introduction of super apps A super app is an app or a web
+              application through which the users can enjoy various services of
+              the latest.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={security} alt="security" />
-            <h6>
-              Mobile App Security Best Practices: Protecting User Data and
-              Preventing Cyber Attacks
-            </h6>
+            <img src={wallpaper} alt="wallpaper" />
+            <h6>The overview on Metaverse: Need of Digital Era</h6>
             <p>
-              Mobile app security is an essential aspect of mobile app
-              development, involving various measures to safeguard user data and
-              thwart cyberattacks.
+              Introduction of Metaverse Metaverse is a virtual world in which
+              people can play games, interact with others, work collectively,
+              build structures and do various.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={ios} alt="ios" />
-            <h6>
-              Mobile App Development for iOS vs Android: Key Differences and
-              Considerations
-            </h6>
+            <img src={about} alt="about" />
+            <h6>Understand the Realtime web in Computer Age</h6>
             <p>
-              Mobile app development is a booming business that gives businesses
-              and developers a lot of possibilities. When embarking on this
-              journey, one crucial decision.
+              Introduction of real-time web Real-time web is a connection
+              between the server and the client created by a real-time web
+              application.
             </p>
           </div>
         </div>
         <div className="row blog">
           <div className="col-md-4">
-            <img src={hiring} alt="hiring" />
-            <h6>
-              The Pros and Cons of Hiring In-House Web Developers vs.
-              Outsourcing
-            </h6>
+            <img src={blog3} alt="blog3" />
+            <h6>Social Media Tips for Business</h6>
             <p>
-              As businesses endeavour to establish a robust online presence in
-              the modern digital era, the demand for web developers is soaring.
+              Whether you are just starting, or you are looking to grow your
+              business social media is the quickest way to get your brand out
+              there.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={risks} alt="risks" />
-            <h6>
-              How to Avoid Common Pitfalls and Risks of IT Staff Augmentation
-            </h6>
+            <img src={blog2} alt="blog2" />
+            <h6>Mobile App Store Optimization</h6>
             <p>
-              Businesses increasingly look to IT Staff Augmentation companies to
-              hire skilled HTML developers in today’s fast-paced digital
-              landscape.
+              Let’s talk about mobile application marketing. If you have been
+              looking for tips to get your applications on the higher rank in
+              the app store.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={react} alt="react" />
-            <h6>Key Skills to Look for When Hiring React Native Developers</h6>
+            <img src={blog4} alt="blog4" />
+            <h6>Hybrid Versus Native Development</h6>
             <p>
-              In today’s fast-paced world, where mobile app development is a
-              growing business, hiring skilled React Native developers is
-              critical for project success.
+              Native Application This is a software or program developed for
+              specified tasks in a specified environment or platform. It has
+              been developed using software development using software
+              development tools.
             </p>
           </div>
         </div>
         <div className="row blog">
           <div className="col-md-4">
-            <img src={outsource} alt="outsource" />
-            <h6>
-              Top Reasons Why Companies Choose to Outsource Web Development
-              Projects
-            </h6>
+            <img src={blog1} alt="blog1" />
+            <h6>Ways to promote your website</h6>
             <p>
-              Web development is crucial for businesses seeking to establish a
-              robust online presence and remain competitive in the current
-              digital environment. However, the difficulties associated.
-            </p>
-          </div>
-          <div className="col-md-4">
-            <img src={tips} alt="tips" />
-            <h6>7 Tips for Creating Mobile-Friendly Websites</h6>
-            <p>
-              In today’s digital landscape, mobile-friendly websites are
-              critical for businesses and organizations to reach their target
-              audience effectively. With the growth of Android app development.
-            </p>
-          </div>
-          <div className="col-md-4">
-            <img src={strategies} alt="strategies" />
-            <h6>
-              Strategies for Testing and Quality Assurance in Web Development
-            </h6>
-            <p>
-              Quality assurance (QA) is a crucial component of web development
-              services, as it ensures the deliverance of dependable and
-              high-performing websites and applications.
+              When you get yourself a website, it doesn’t take a snap of the
+              fingers to get the traffic coming your way. Getting a website that
+              represents your brand and your needs is easy, but getting people
+              to notice your website requires proper promotion. 
             </p>
           </div>
         </div>
         <div>
-        <nav aria-label="Page navigation">
+          <nav aria-label="Page navigation">
             <ul class="pagination justify-content-center">
-                <li class="page-item">
-                    <a class="page-link" href="/blog5" aria-label="Previous">
-                        <span aria-hidden="true">&laquo; Previous</span>
-                    </a>
-                </li>
-                <li class="page-item"><a class="page-link" href="blog">1</a></li>
-                <li class="page-item"><a class="page-link" href="/blog2">2</a></li>
-                <li class="page-item"><a class="page-link" href="/blog3">3</a></li>
-                <li class="page-item"><a class="page-link" href="/blog4">4</a></li>
-                <li class="page-item"><a class="page-link" href="/blog5">5</a></li>
-                <li class="page-item"><a class="page-link" href="/blog6">6</a></li>
-                <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
-                        <span aria-hidden="true"> Next &raquo;</span>
-                    </a>
-                </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog5" aria-label="Previous">
+                  <span aria-hidden="true">&laquo; Previous</span>
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="blog">
+                  1
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog2">
+                  2
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog3">
+                  3
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog4">
+                  4
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog5">
+                  5
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog6">
+                  6
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true"> Next &raquo;</span>
+                </a>
+              </li>
             </ul>
-        </nav>
+          </nav>
         </div>
       </div>
     </div>
