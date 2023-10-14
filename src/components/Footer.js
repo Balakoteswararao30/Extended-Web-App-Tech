@@ -30,7 +30,7 @@ const Footer = () => {
             <span>info@extwebtech.com</span>
           </div>
           <div className="col-md-4 link">
-            <a href="services">Home</a>
+            <a href="home">Home</a>
             <br />
             <a href="services">Services</a>
             <br />

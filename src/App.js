@@ -17,11 +17,13 @@ import { Blog3 } from "./components/Blog3";
 import { Blog4 } from "./components/Blog4";
 import { Blog5 } from "./components/Blog5";
 import { Blog6 } from "./components/Blog6";
+import { Home } from "./components/Home";
 const App = () => {
   return (
     <Router>
       <div>
         <Navbar />
+        <Home></Home>
         <Routes>
           <Route path="/services" element={<Services />} />
           <Route path="/hireExpert" element={<HireExpert />} />

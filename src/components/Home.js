@@ -1,7 +1,9 @@
-import React, { useState }  from "react";
+import React, { useState } from "react";
+import About from "./img/about.webp";
 import path from "./img/banner-1.webp";
-import pat from "./img/Software.webp";
-import Experience from "./img/Experience.jpg";
+import value1 from "./img/value-1.webp";
+import value2 from "./img/value-2.webp";
+import value3 from "./img/value-3.webp";
 import android from "./img/android-development.avif";
 import ios from "./img/ios-development.webp";
 import api from "./img/api-development.avif";
@@ -10,12 +12,17 @@ import react from "./img/react.webp";
 import wearable from "./img/wearable.webp";
 import wordpress from "./img/wordpress.webp";
 import cross from "./img/cross.avif";
+import PRODUCT from "./img/PRODUCT-MARKET-STRATEGY-1.png";
+import UX from "./img/UX-DESIGN.png";
+import NFP from "./img/NFP-MVP.png";
+import DEVELOPMENT from "./img/PRODUCT-DEVELOPMENT.png";
+import QA from "./img/QA-TESTING.png";
+import SUPPORT from "./img/SUPPORT-MAINTENANCE.png";
 import { useNavigate } from "react-router-dom";
 import Contact from "./Contact";
-
-const Services = () => {
+export const Home = () => {
   const [showContact, setShowContact] = useState(false);
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
   const handleGetStartedClick = () => {
     setShowContact(true);
@@ -28,14 +35,18 @@ const Services = () => {
         <div className="row">
           <div className="col-md-6 b-ground">
             <h1 className="pt">
-              From Napkin Sketches To Fully Developed Spec Sheets.
+              We Offer Modern Solutions For Growing Your Business
             </h1>
-            <h3 className="p">
-              Extended Web AppTech Is Able To Meet Your Needs For Web & Mobile
-              Design, Development, And Strategy.
-            </h3>
-            <button className="btn btn-outline-primary mt-4 contactbutton" onClick={handleGetStartedClick}>
-              Get Started <i class="fa-solid fa-arrow-right"></i>
+            <h5 className="p">
+              Our impeccable team is a pillar of the strong foundation that
+              solidifies your ideas into concrete concepts that make the digital
+              world more accessible.
+            </h5>
+            <button
+              className="btn btn-outline-primary contactbutton mt-4"
+              onClick={handleGetStartedClick}
+            >
+              Click Me <i class="fa-solid fa-arrow-right"></i>
             </button>
             {showContact && <Contact />}
           </div>
@@ -44,84 +55,77 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <h1 className="t-center pt-5 ">Services Offered</h1>
-      <h3 className="t-center">
-        We Ensure Supreme Assistance To Our Clients!!!
-      </h3>
       <div className="container">
         <div className="row">
-          <p>
-            Extended Web App Tech focuses on quality delivery, innovation, and
-            flexibility which are critical factors to the engaging target market
-            of our clients. Our clients are our top priority; we deep dive into
-            the business requirements they come up with. Analysis and estimation
-            of the requirements are unceasing to reward with a profitable
-            product. We are determined and committed to swotting ourselves into
-            trendy technologies to meet our clients. The current market prefers
-            reliable, robust, and efficiently built mobile applications. When
-            you opt for our service, our developers, analysts, and the entire
-            team will surpass the result. Our deemed clients opted services are
-            below:
-          </p>
+          <div className="col-md-4 pt-5">
+            <img src={About} alt="About" className="w-100" />
+          </div>
+          <div className="col-md-8 pt-5 ps-5">
+            <h1>Who We Are</h1>
+            <h5 className="w-75">
+              Your idea, Our execution is our only mission. The tech-savvy world
+              requires experts who turn ideas into reality and ambition into a
+              mission; that's where our role-play begins.
+            </h5>
+            <p className="w-75">
+              We help our clients build on their dreams with concrete concepts.
+              Extended Web AppTech was established to ensure that individuals
+              and firms have reliable solution providers in the web technology
+              and digital domain.
+            </p>
+          </div>
         </div>
-        <div className="row">
+        <div className="t-center pb-5">
+          <h1>Our Values</h1>
+          <h5>
+            Strive To Deliver The Catalyst Solutions To Accelerate Your Business
+            To The Next Level.
+          </h5>
+          <h6 className="pt-2">
+            Extended Web AppTech's core values are understanding customer
+            expectations and being sincere and honest with our customers.
+          </h6>
+        </div>
+        <div className="row value ps-5">
           <div className="col-md-4">
-            <img src={pat} alt="" className="w-90"></img>
-          </div>
-          <div className="col-md-8 pt-5">
-            <h3>Software Development And Analysis Of Business Requirements</h3>
+            <img src={value1} alt="value1" />
+            <h2>Excellence</h2>
             <p>
-              Our determination daily drives us to incorporate demanded
-              technologies in the market, and the digital approach is the easy
-              way to conspire; our professionals have always focused on good
-              hands-on experience in the software development, which plays a
-              vital role in clients business expansion. We utilise the advances
-              in technology and digital processes to the fullest, and as per our
-              analysis, we figure out suitable technology for you.
-            </p>
-            <p>
-              A software product's major concern is data security. We are
-              bending our efforts to earn our clients trust to create secure
-              software. Their long-lasting relationship with us encourages us to
-              appraise them with expert advice, customer support and technology
-              suitable to their business.
-            </p>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-md-8 pt-5">
-            <h3>Experience</h3>
-            <p>
-              The world we live in today is predominately changing with the
-              advancement of digital and technology, which is convinced with
-              Authentic information, so we have come up with solutions that
-              speak for ourselves. Our application development services make
-              great deals in this rush-paced world, mainly to market and serve
-              the business.
-            </p>
-            <p>
-              Games, location tracking/GPS, social media, and business are hot
-              areas we deal with.
-            </p>
-            <p>
-              We believe in teamwork, designers, developers, and testers work
-              closely with the client from the abstraction of ideas to the final
-              launch of the mobile application.
+              We are passionate about the highest quality standards, always
+              promoting meritocracy.
             </p>
           </div>
           <div className="col-md-4">
-            <img src={Experience} alt="" className="w-75"></img>
+            <img src={value2} alt="value2" />
+            <h2>Pioneering</h2>
+            <p>
+              We are bold and agile to courageously take up challenges to
+              provide innovative solutions to digital world problems.
+            </p>
+          </div>
+          <div className="col-md-4">
+            <img src={value3} alt="value3" />
+            <h2>Collaborative Mindset</h2>
+            <p>
+              We will invest in our people and partners, enable continuous
+              learning, and build caring and collaborative relationships based
+              on trust and mutual respect.
+            </p>
           </div>
         </div>
-        <h1 className="t-center">Who Are We?</h1>
+        <h1 className="t-center">Our Services</h1>
+        <h5 className="t-center">What Do We Do?</h5>
         <div className="row">
-          <p>
-            We have a well-established technological firm that goes the extra
-            mile to meet clients' necessities, mainly in strategy, consultation,
-            digital technology and operation sectors. Our exposure is more than
-            40 industries, Core business functions and support functions
-            activities have made us full-fledged with the challenges and
-            hands-on experience we got to deal with.
+          <p className="ps-10 pb-5">
+            We offer services that assist in finding the best solutions for our
+            clients regarding strategy, consultancy, digital technology, and
+            operations. As a company that develops digital technologies, we have
+            formed collaborations with organizations that pursue technical
+            innovation as a broad strategy for approaching the digital world and
+            how it functions. We have more than enough practical knowledge from
+            working in more than 40 different company functions and sectors to
+            offer the finest outcomes in the rapidly changing technical and
+            digital environment.
           </p>
         </div>
         <div className="row developer">
@@ -242,9 +246,60 @@ const Services = () => {
             </p>
           </div>
         </div>
+        <h2 className="t-center">Our Approach To The Projects</h2>
+        <div className="row nfp p-5">
+          <div className="col-md-4">
+            <img src={PRODUCT} alt="PRODUCT" />
+            <h5>PRODUCT & MARKET STRATEGY</h5>
+            <p>
+              With the capability of building ‘Multi-Million Dollar Enterprise,’
+              we shape your product reach globally with our expert consulting.
+            </p>
+          </div>
+          <div className="col-md-4">
+            <img src={UX} alt="UX" />
+            <h5>UI/UX DESIGN</h5>
+            <p>
+              We create next-generation user-centric UI/UX leading to elevation
+              of revenue in your business.
+            </p>
+          </div>
+          <div className="col-md-4">
+            <img src={NFP} alt="NFPx" />
+            <h5>NFP & MVP</h5>
+            <p>
+              We give life to your idea, getting it ready to live bold in the
+              real world.
+            </p>
+          </div>
+        </div>
+        <div className="row nfp p-5">
+          <div className="col-md-4">
+            <img src={DEVELOPMENT} alt="DEVELOPMENT" />
+            <h5>PRODUCT DEVELOPMENT</h5>
+            <p>
+              Getting the product developed isn’t enough, so get it done in such
+              a way that no competitor ever dares to compete with you.
+            </p>
+          </div>
+          <div className="col-md-4">
+            <img src={QA} alt="QA" />
+            <h5>QA & TESTING</h5>
+            <p>
+              We fix bugs, and test your product rigorously how it behave in the
+              real environment.
+            </p>
+          </div>
+          <div className="col-md-4">
+            <img src={SUPPORT} alt="SUPPORT" />
+            <h5>SUPPORT & MAINTENANCE</h5>
+            <p>
+              With all the knowledge of your product, we will take care of it as
+              it is ours baby.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
-
-export default Services;
