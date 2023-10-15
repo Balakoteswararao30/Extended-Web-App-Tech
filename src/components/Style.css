@@ -5,6 +5,27 @@
 ul li{
   padding: 5px;
 }
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 200px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ .dropdown-content a {
+   color:#064081;
+   text-decoration: none;
+   display: block;
+   padding: 5px;
+   font-size: 15px;
+ }
+ 
+ .dropdown-content a:hover {background-color: #f1f1f1}
+ 
+ .dropdown:hover .dropdown-content {
+   display: block;
+ }
 /*unserval*/
 *p{
    color: #064081;
@@ -191,13 +212,14 @@ margin-left: 12%;
    margin-right: 0%;
 }
 .footer div{
-   height: 60vh;
+   height: 50vh;
    background-color: rgb(27, 27, 27);
    color: white;
 }
 .logo{
    padding-left: 5%;
    padding-top: 20px;
+   font-size: 13px;
 }
 .logo img{
 width: 70%;
@@ -205,6 +227,10 @@ width: 70%;
 .footer a{
    text-decoration: none;
    color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer a:hover{
+   color: #064081;
 }
 .link{
    padding-left: 15%;
@@ -214,7 +240,8 @@ width: 70%;
 .copy{
    background-color:  rgb(19, 18, 18);;
    color: white;
-   padding-bottom: 20px;
+   font-size: 12px;
+   height: 60px;
 }
 /*Contact*/
 .contact{

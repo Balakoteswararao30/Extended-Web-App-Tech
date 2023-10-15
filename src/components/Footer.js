@@ -3,7 +3,7 @@ import path from "./img/footer_logo.webp";
 const Footer = () => {
   return (
     <div>
-      <div className="container-fulid">
+      <div className="container-fulid ">
         <div className="row footer">
           <div className="col-md-4 logo">
             <img src={path} alt=""></img>
@@ -30,7 +30,7 @@ const Footer = () => {
             <span>info@extwebtech.com</span>
           </div>
           <div className="col-md-4 link">
-            <a href="home">Home</a>
+            <a href="/">Home</a>
             <br />
             <a href="services">Services</a>
             <br />

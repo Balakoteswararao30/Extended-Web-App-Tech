@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import home from "./img/home-banner.png";
 import About from "./img/about.webp";
 import path from "./img/banner-1.webp";
 import value1 from "./img/value-1.webp";
@@ -51,12 +52,12 @@ export const Home = () => {
             {showContact && <Contact />}
           </div>
           <div className="col-md-6 b-ground">
-            <img src={path} alt=""></img>
+            <img src={home} alt="" className="w-75 pt-3"></img>
           </div>
         </div>
       </div>
       <div className="container">
-        <div className="row">
+        <div className="row ms-5">
           <div className="col-md-4 pt-5">
             <img src={About} alt="About" className="w-100" />
           </div>
