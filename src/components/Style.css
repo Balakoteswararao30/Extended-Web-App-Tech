@@ -224,6 +224,10 @@ margin-left: 12%;
 .logo img{
 width: 70%;
 }
+.navbar img
+{
+   width:250px !important;
+}
 .footer a{
    text-decoration: none;
    color: white;
