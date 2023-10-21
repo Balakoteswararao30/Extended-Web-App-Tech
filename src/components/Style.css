@@ -42,6 +42,13 @@ ul li{
  .dropdown:hover .dropdown-content {
    display: block;
  }
+ .call{
+   font-family: "Roboto Condensed", heebo;
+    font-size: 14px;
+    height: 6vh;
+    border-radius: 0px 0px 0px 0px;
+    padding: 10px 12px 12px 12px;   
+}
 /*unserval*/
 *p{
    color: #064081;
@@ -317,6 +324,9 @@ color: rgb(209, 25, 25);
 .check li{
    display: inline;
 }
+.check{
+   font-size: small;
+}
 .check label{
    padding-left: 10px;
 }
@@ -449,6 +459,21 @@ div.row.maker{
 }
 
 /*BLOG*/
+.bg-img{
+   background-image: url('./img/blog_banner.webp');
+   background-size: cover;
+   background-attachment: fixed;
+   height: 40vh;
+}
+.Blog{
+   color: #FFFFFF;
+    font-family: "Roboto Condensed", heebo;
+    font-size: 60px;
+    padding: 100px 0px 100px 50%;
+    font-weight: 600;
+    background-color: rgb(48, 48, 48);
+   opacity: 0.5;
+}
 .blog{
    height: 75vh;
    width: 90%;

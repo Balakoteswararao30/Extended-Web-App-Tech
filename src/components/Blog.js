@@ -20,7 +20,12 @@ import strategies from "./img/Strategies-for-Testing.webp";
 export const Blog = () => {
   return (
     <div className="m-top">
-      <div className="container-fulid"></div>
+      <div className="container-fulid">
+        <div className="bg-img">
+          <div className="bg"></div>
+          <h1 className="Blog">Blog</h1>
+        </div>
+      </div>
       <div className="container">
         <h1 className="t-center pt-4 pb-5">Recent Blogs</h1>
         <div className="row blog">
@@ -50,7 +55,7 @@ export const Blog = () => {
             <p>
               Ruby on Rails, often abbreviated as Rails, is an open-source web
               application framework that has revolutionized the world of web
-              development. 
+              development.
             </p>
           </div>
         </div>
@@ -226,26 +231,50 @@ export const Blog = () => {
           </div>
         </div>
         <div>
-        <nav aria-label="Page navigation">
+          <nav aria-label="Page navigation">
             <ul class="pagination justify-content-center">
-                <li class="page-item">
+              <li class="page-item">
                 <a class="page-link" href="blog" aria-label="Previous">
-                        <span aria-hidden="true">&laquo; Previous</span>
-                    </a>
-                </li>
-                <li class="page-item"><a class="page-link" href="blog">1</a></li>
-                <li class="page-item"><a class="page-link" href="/blog2">2</a></li>
-                <li class="page-item"><a class="page-link" href="/blog3">3</a></li>
-                <li class="page-item"><a class="page-link" href="/blog4">4</a></li>
-                <li class="page-item"><a class="page-link" href="/blog5">5</a></li>
-                <li class="page-item"><a class="page-link" href="/blog6">6</a></li>
-                <li class="page-item">
-                    <a class="page-link" href="/blog2" aria-label="Next">
-                        <span aria-hidden="true"> Next &raquo;</span>
-                    </a>
-                </li>
+                  <span aria-hidden="true">&laquo; Previous</span>
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="blog">
+                  1
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog2">
+                  2
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog3">
+                  3
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog4">
+                  4
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog5">
+                  5
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog6">
+                  6
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="/blog2" aria-label="Next">
+                  <span aria-hidden="true"> Next &raquo;</span>
+                </a>
+              </li>
             </ul>
-        </nav>
+          </nav>
         </div>
       </div>
     </div>

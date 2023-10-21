@@ -29,7 +29,7 @@ const Footer = () => {
             <br />
             <span>info@extwebtech.com</span>
           </div>
-          <div className="col-md-4 link">
+          <div className="col-md-3 link">
             <a href="/">Home</a>
             <br />
             <a href="services">Services</a>
@@ -38,7 +38,7 @@ const Footer = () => {
             <br />
             <a href="products">Product</a>
           </div>
-          <div className="col-md-4 link">
+          <div className="col-md-3 link">
             <a href="industries">Industries</a>
             <br />
             <a href="aboutus">About Us</a>
@@ -47,6 +47,7 @@ const Footer = () => {
             <br />
             <a href="blog">Blog</a>
           </div>
+          <div className="col-md-2 link"></div>
         </div>
         <div className="row copy">
           <p className="t-center">2023 &copy;Copyright | Extended Web AppTech</p>

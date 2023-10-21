@@ -110,7 +110,7 @@ const Navbar = () => {
           </div>
           <div className="col-md-2">
             <button
-              className="btn  btn-outline-primary mt-4"
+              className="btn  btn-outline-primary mt-4 call"
               onClick={handleGetStartedClick}
             >
               Schedule A Call
