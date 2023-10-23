@@ -175,14 +175,14 @@ export const Products = () => {
             <div className="col-4">
               <div className="card car">
                 <div
-                  id="carouselExampleDark"
+                  id="carouselExampleDark1"
                   className="carousel carousel-dark slide"
                   data-bs-ride="carousel"
                 >
                   <div className="carousel-indicators">
                     <button
                       type="button"
-                      data-bs-target="#carouselExampleDark"
+                      data-bs-target="#carouselExampleDark1"
                       data-bs-slide-to="0"
                       className="active"
                       aria-current="true"
@@ -190,13 +190,13 @@ export const Products = () => {
                     ></button>
                     <button
                       type="button"
-                      data-bs-target="#carouselExampleDark"
+                      data-bs-target="#carouselExampleDark1"
                       data-bs-slide-to="1"
                       aria-label="Slide 2"
                     ></button>
                     <button
                       type="button"
-                      data-bs-target="#carouselExampleDark"
+                      data-bs-target="#carouselExampleDark1"
                       data-bs-slide-to="2"
                       aria-label="Slide 3"
                     ></button>
@@ -235,14 +235,14 @@ export const Products = () => {
             <div className="col-4">
               <div className="card car">
                 <div
-                  id="carouselExampleDark"
+                  id="carouselExampleDark2"
                   className="carousel carousel-dark slide"
                   data-bs-ride="carousel"
                 >
                   <div className="carousel-indicators">
                     <button
                       type="button"
-                      data-bs-target="#carouselExampleDark"
+                      data-bs-target="#carouselExampleDark2"
                       data-bs-slide-to="0"
                       className="active"
                       aria-current="true"
@@ -250,13 +250,13 @@ export const Products = () => {
                     ></button>
                     <button
                       type="button"
-                      data-bs-target="#carouselExampleDark"
+                      data-bs-target="#carouselExampleDark2"
                       data-bs-slide-to="1"
                       aria-label="Slide 2"
                     ></button>
                     <button
                       type="button"
-                      data-bs-target="#carouselExampleDark"
+                      data-bs-target="#carouselExampleDark2"
                       data-bs-slide-to="2"
                       aria-label="Slide 3"
                     ></button>
@@ -316,14 +316,14 @@ export const Products = () => {
             <div className="col-4">
               <div className="card car">
                 <div
-                  id="carouselExampleDark"
+                  id="carouselExampleDark3"
                   className="carousel carousel-dark slide"
                   data-bs-ride="carousel"
                 >
                   <div className="carousel-indicators">
                     <button
                       type="button"
-                      data-bs-target="#carouselExampleDark"
+                      data-bs-target="#carouselExampleDark3"
                       data-bs-slide-to="0"
                       className="active"
                       aria-current="true"
@@ -331,13 +331,13 @@ export const Products = () => {
                     ></button>
                     <button
                       type="button"
-                      data-bs-target="#carouselExampleDark"
+                      data-bs-target="#carouselExampleDark3"
                       data-bs-slide-to="1"
                       aria-label="Slide 2"
                     ></button>
                     <button
                       type="button"
-                      data-bs-target="#carouselExampleDark"
+                      data-bs-target="#carouselExampleDark3"
                       data-bs-slide-to="2"
                       aria-label="Slide 3"
                     ></button>
@@ -376,14 +376,14 @@ export const Products = () => {
             <div className="col-4">
               <div className="card car">
                 <div
-                  id="carouselExampleDark"
+                  id="carouselExampleDark4"
                   className="carousel carousel-dark slide"
                   data-bs-ride="carousel"
                 >
                   <div className="carousel-indicators">
                     <button
                       type="button"
-                      data-bs-target="#carouselExampleDark"
+                      data-bs-target="#carouselExampleDark4"
                       data-bs-slide-to="0"
                       className="active"
                       aria-current="true"
@@ -391,13 +391,13 @@ export const Products = () => {
                     ></button>
                     <button
                       type="button"
-                      data-bs-target="#carouselExampleDark"
+                      data-bs-target="#carouselExampleDark4"
                       data-bs-slide-to="1"
                       aria-label="Slide 2"
                     ></button>
                     <button
                       type="button"
-                      data-bs-target="#carouselExampleDark"
+                      data-bs-target="#carouselExampleDark4"
                       data-bs-slide-to="2"
                       aria-label="Slide 3"
                     ></button>

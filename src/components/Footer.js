@@ -5,7 +5,8 @@ const Footer = () => {
     <div>
       <div className="container-fulid ">
         <div className="row footer">
-          <div className="col-md-4 logo">
+          <div className="col-md-1 link"></div>
+          <div className="col-md-4 logo ">
             <img src={path} alt=""></img>
             <p>
               <i class="fa-solid fa-location-dot"></i>
@@ -29,7 +30,8 @@ const Footer = () => {
             <br />
             <span>info@extwebtech.com</span>
           </div>
-          <div className="col-md-3 link">
+          <div className="col-md-1 link"></div>
+          <div className="col-md-2 link">
             <a href="/">Home</a>
             <br />
             <a href="services">Services</a>
@@ -47,7 +49,7 @@ const Footer = () => {
             <br />
             <a href="blog">Blog</a>
           </div>
-          <div className="col-md-2 link"></div>
+          <div className="col-md-1 link"></div>
         </div>
         <div className="row copy">
           <p className="t-center">2023 &copy;Copyright | Extended Web AppTech</p>
