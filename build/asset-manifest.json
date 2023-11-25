@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Extended-Web-App-Tech/static/css/main.cbd0a370.css",
-    "main.js": "/Extended-Web-App-Tech/static/js/main.3dea9e3e.js",
-    "static/js/787.e98fd670.chunk.js": "/Extended-Web-App-Tech/static/js/787.e98fd670.chunk.js",
+    "main.js": "/Extended-Web-App-Tech/static/js/main.94f046b0.js",
+    "static/js/787.d3befce1.chunk.js": "/Extended-Web-App-Tech/static/js/787.d3befce1.chunk.js",
     "static/media/native-vs-react.webp": "/Extended-Web-App-Tech/static/media/native-vs-react.576ecb1ed39e59c9c41c.webp",
     "static/media/sitecore-development.webp": "/Extended-Web-App-Tech/static/media/sitecore-development.88ac3be46c6c3e47b092.webp",
     "static/media/Outsource-Web-Development-1.png": "/Extended-Web-App-Tech/static/media/Outsource-Web-Development-1.62a42538178f24c9de23.png",
@@ -182,11 +182,11 @@
     "static/media/iOS.webp": "/Extended-Web-App-Tech/static/media/iOS.c2199c62594b590a61ab.webp",
     "index.html": "/Extended-Web-App-Tech/index.html",
     "main.cbd0a370.css.map": "/Extended-Web-App-Tech/static/css/main.cbd0a370.css.map",
-    "main.3dea9e3e.js.map": "/Extended-Web-App-Tech/static/js/main.3dea9e3e.js.map",
-    "787.e98fd670.chunk.js.map": "/Extended-Web-App-Tech/static/js/787.e98fd670.chunk.js.map"
+    "main.94f046b0.js.map": "/Extended-Web-App-Tech/static/js/main.94f046b0.js.map",
+    "787.d3befce1.chunk.js.map": "/Extended-Web-App-Tech/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbd0a370.css",
-    "static/js/main.3dea9e3e.js"
+    "static/js/main.94f046b0.js"
   ]
 }
