@@ -33,7 +33,7 @@ export default class Contact extends Component {
   };
   submitHandler = (e) => {
     let alphaexp=/^[a-zA-Z]+$/;
-    let emailexp=/^[a-z0-9]+@[a-z]+.[a-z]+$/;
+    let emailexp=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     let numberexp=/^[0-9]+$/;
     e.preventDefault();
     if (this.state.name === "") {
