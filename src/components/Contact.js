@@ -58,16 +58,14 @@ export default class Contact extends Component {
         document.getElementById("emailnote").innerHTML="please enter valid email id"
       }
     }
-    if(this.state.phone===""){
-      document.getElementById("numbernote").innerHTML="Please enter mobile number";
-    }
-    else{
-      if(this.state.phone.length===10){
-        document.getElementById("numbernote").innerHTML="";
-      }
-      else{
-        document.getElementById("numbernote").innerHTML="phone number length must be 10 digits"
-      }
+    if (this.state.phone === "") {
+      document.getElementById("numbernote").innerHTML = "Please enter mobile number";
+    } else if (!this.state.phone.match(numberexp)) {
+      document.getElementById("numbernote").innerHTML = "please enter digits only";
+    } else if (this.state.phone.length !== 10) {
+      document.getElementById("numbernote").innerHTML = "phone number length must be 10 digits";
+    } else {
+      document.getElementById("numbernote").innerHTML = "";
     }
     if(this.state.message===""){
       document.getElementById("messagenote").innerHTML="Please enter message";
